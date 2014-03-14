@@ -4,6 +4,7 @@ web-visual-novel
 ##このプログラムについて
 
 ブラウザ上でスクリプトベースのビジュアルノベルを再生するプログラムです。
+
 [tmlib](http://phi-jp.github.io/tmlib.js/)を利用して書かれています。
 
 スクリプトの仕様など、詳しい説明は、[ビジュアルノベル作成サイト](http://plk.sakura.ne.jp/wvn/)
@@ -18,7 +19,7 @@ web-visual-novel
     * **tmlib.js** - tmlib.js 0.2.0です。ただし、modify:とコメントを付けた箇所で改変を行っています。
   * **play-form.cgi** - フォームからpostされたスクリプトを表示するためのcgiです。rubyで書かれています。
   * **play-form.js** - play-form.cgiで使用しているJavaScriptです。
-  * **play-gist.html** - gistに投稿されたスクリプトを駆動します。クエリ文字列で、?id=gistのidとしてください。
+  * **play-gist.html** - gistに投稿されたスクリプトを駆動します。クエリ文字列で、「?id=gistのid」としてください。
   * **play-gist.js** - play-gist.htmlで使用しているJavaScriptです。
   * **test_cgiserver.rb** - play-form.cgiのテストを行うためにweblickのサーバを立ち上げるためのrubyスクリプトです。
   * **test_form.html** - play-form.cgiのテストを行うためのformを含んだhtmlファイルです。
@@ -29,4 +30,5 @@ web-visual-novel
 ##ライセンス
 
 このプログラムは、[MIT license](http://www.opensource.org/licenses/mit-license.php)で配布します。
+
 ただし、jslib/tmlib.js は tmlib.js のライセンスとします。
