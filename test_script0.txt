@@ -1,0 +1,9 @@
+@title, "テスト"
+
+@set_bg, "white"
+@set_chara, 0, "kokeshi_figure"
+
+@wait, 10
+
+@name, "こけし"
+こんにちは！こけしです。
