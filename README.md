@@ -29,6 +29,6 @@ web-visual-novel
 
 ##ライセンス
 
-このプログラムは、[MIT license](http://www.opensource.org/licenses/mit-license.php)で配布します。
+このプログラムは、[MIT license](http://www.opensource.org/licenses/mit-license.php)です。
 
 jslib/tmlib.js は tmlib.js のライセンスとなります。
