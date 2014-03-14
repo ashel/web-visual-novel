@@ -5,7 +5,7 @@ web-visual-novel
 
 ブラウザ上でスクリプトベースのビジュアルノベルを再生するプログラムです。
 
-[tmlib](http://phi-jp.github.io/tmlib.js/)を利用して書かれています。
+[tmlib.js](http://phi-jp.github.io/tmlib.js/) を利用して書かれています。
 
 スクリプトの仕様など、詳しい説明は、[ビジュアルノベル作成サイト](http://plk.sakura.ne.jp/wvn/)
 を参照してください。
@@ -31,4 +31,4 @@ web-visual-novel
 
 このプログラムは、[MIT license](http://www.opensource.org/licenses/mit-license.php)で配布します。
 
-ただし、jslib/tmlib.js は tmlib.js のライセンスとします。
+ただし、jslib/tmlib.js は tmlib.js のライセンスとなります。
