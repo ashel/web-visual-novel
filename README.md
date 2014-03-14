@@ -21,7 +21,7 @@ web-visual-novel
   * **play-form.js** - play-form.cgiで使用しているJavaScriptです。
   * **play-gist.html** - gistに投稿されたスクリプトを駆動します。クエリ文字列で、「?id=gistのid」としてください。
   * **play-gist.js** - play-gist.htmlで使用しているJavaScriptです。
-  * **test_cgiserver.rb** - play-form.cgiのテストを行うためにweblickのサーバを立ち上げるためのrubyスクリプトです。
+  * **test_cgiserver.rb** - play-form.cgiのテストを行うためにwebrickのサーバを立ち上げるためのrubyスクリプトです。
   * **test_form.html** - play-form.cgiのテストを行うためのformを含んだhtmlファイルです。
   * **test_local.js** - ローカルで動作をテストするためのJavaScriptです。
   * **test_script0.html** - test_script0.txtの内容を再生するWebページです。ブラウザ側でローカルから動的にファイルを読み込むための設定が必要であることに注意してください。例えばChromeでは、実行時に引数で--allow-file-access-from-filesを指定します。
