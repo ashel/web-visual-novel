@@ -17507,6 +17507,8 @@ tm.sound = tm.sound || {};
                         });
                     } else {
                         console.error(xhr);
+			            // modify: 読み込み失敗したときのエラーを捕まえられるようにした。
+		            	sp.onLoadError(src);
                     }
                 }
             };
