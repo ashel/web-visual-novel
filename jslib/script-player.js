@@ -615,7 +615,7 @@ tm.define("ScriptMgr", {
 	 */
 	_throwErrorWithCmdPos: function(description) {
 		var line_no = this.cmdPosToLineNo[this.cmdPos];
-		throw {lineNo: line_no, lineText: this.scriptSrc[line_no], desc: description};
+		throw {lineNo: line_no + 1, lineText: this.scriptSrc[line_no], desc: description};
 	},
 
 	/*
