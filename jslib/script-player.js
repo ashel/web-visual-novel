@@ -218,11 +218,8 @@ tm.define("ScriptMgr", {
 	setupTransitElements: function() {
 		// フェードインっぽく見せるための覆い
 		var coverShape = tm.app.Shape(sp.SCREEN_WIDTH, sp.SCREEN_HEIGHT).addChildTo(this.rootElement);
-		coverShape.x = sp.SCREEN_CENTER_X;
-		coverShape.y = sp.SCREEN_CENTER_Y;
-	    coverShape.canvas
-	    	.setColorStyle(sp.BACKGROUND_COLOR, sp.BACKGROUND_COLOR)
-		    .fillRect(0, 0, sp.SCREEN_WIDTH, sp.SCREEN_HEIGHT);
+		coverShape.origin.set(0, 0);
+		coverShape.canvas.clearColor(sp.BACKGROUND_COLOR);
 		coverShape.tweener
 			.clear()
 			.fadeOut(this.frameToMilliSec(5))
