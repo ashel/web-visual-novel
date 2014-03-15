@@ -79,7 +79,7 @@ tm.define("LoadingWithTitleScene", {
 	    sp.defineFunction("onLoadError", function(path) {
 	    	var lineNo_ = param.scriptMgr.assetPathToLineNo[path];
 	    	var lineText_ = param.scriptMgr.scriptSrc[lineNo_];
-	    	var info = {lineNo: lineNo_, lineText: lineText_, desc: "指定されたリソースがありません。リソース名を確認してください。"};
+	    	var info = {lineNo: lineNo_ + 1, lineText: lineText_, desc: "指定されたリソースがありません。リソース名を確認してください。"};
 			self.app.replaceScene(ErrorScene(info));
 	    });
 
