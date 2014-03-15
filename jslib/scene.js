@@ -116,6 +116,10 @@ tm.define("ErrorScene", {
 		var x_pos = 50;
 		var line_height = 50;
 
+		var background = tm.app.Shape(sp.SCREEN_WIDTH, sp.SCREEN_HEIGHT).addChildTo(this);
+		background.origin.set(0, 0);
+		background.canvas.clearColor("rgba(250, 250, 250, 1.0)");
+
 		this.fromJSON({
 			children: [
 				{
